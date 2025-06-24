@@ -1,10 +1,11 @@
 "use client";
 import Link from "next/link";
-import { Logo } from "./logo";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import React from "react";
 import { ModeToggle } from "./mode-toggle";
+import Image from "next/image";
+import Logo from '@/public/assets/images/logo_white.svg';
 
 const menuItems = [
   { name: "Features", href: "#link" },
@@ -21,15 +22,16 @@ export const HeroHeader = () => {
         data-state={menuState && "active"}
         className="bg-background/50 fixed z-20 w-full border-b backdrop-blur-3xl"
       >
-        <div className="mx-auto max-w-6xl px-6 transition-all duration-300">
+        <div className="mx-auto max-w-7xl px-6 transition-all duration-300">
           <div className="relative flex flex-wrap items-center justify-between gap-6 py-3 lg:gap-0 lg:py-4">
             <div className="flex w-full items-center justify-between gap-12 lg:w-auto">
               <Link
                 href="/"
                 aria-label="home"
-                className="flex items-center space-x-2"
+                className="flex items-center space-x-2  h-[60px] w-[150px]"
               >
-                <Logo />
+                          <Image src={Logo} alt="Tailus UI Logo" width={150} height={50} className="mx-auto" />
+                
               </Link>
 
               <button

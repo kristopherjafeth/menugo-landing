@@ -1,4 +1,5 @@
-import { Logo } from "@/components/logo";
+import Logo from "@/public/assets/images/hero-banner.png";
+import Image from "next/image";
 import Link from "next/link";
 
 const links = [
@@ -33,7 +34,7 @@ export default function FooterSection() {
     <footer className="py-16 md:py-32">
       <div className="mx-auto max-w-5xl px-6">
         <Link href="/" aria-label="go home" className="mx-auto block size-fit">
-          <Logo />
+          <Image src={Logo} alt="Tailus UI Logo" width={150} height={50} className="mx-auto" />
         </Link>
 
         <div className="my-8 flex flex-wrap justify-center gap-6 text-sm">

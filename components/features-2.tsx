@@ -8,11 +8,9 @@ export default function Features() {
       <div className="@container mx-auto max-w-5xl px-6">
         <div className="text-center">
           <h2 className="text-balance text-4xl font-semibold lg:text-5xl">
-            Beneficios
+            ¿Cómo Funciona?
           </h2>
-          <p className="mt-4">
-            Qué obtendrás con nuestra solución tecnológica
-          </p>
+          <p className="mt-4">Te explicamos cada paso detallado</p>
         </div>
         <div className="@min-4xl:max-w-full @min-4xl:grid-cols-3 mx-auto mt-8 grid max-w-sm gap-6 *:text-center md:mt-16">
           <Card className="group shadow-zinc-950/5">
@@ -21,12 +19,13 @@ export default function Features() {
                 <Zap className="size-6" aria-hidden />
               </CardDecorator>
 
-              <h3 className="mt-6 font-medium">Recibe pedidos por WhatsApp</h3>
+              <h3 className="mt-6 font-medium">1. Comparte</h3>
             </CardHeader>
 
             <CardContent>
               <p className="text-sm">
-           Aproveche WhatsApp, que tiene más de 300 millones de usuarios activos en todo el mundo.
+                Comparte el link de tu tienda con tus clientes Ej.
+                (menugo.app/empresa).
               </p>
             </CardContent>
           </Card>
@@ -37,12 +36,13 @@ export default function Features() {
                 <Settings2 className="size-6" aria-hidden />
               </CardDecorator>
 
-              <h3 className="mt-6 font-medium">Ahorra Tiempo y Dinero con tu tienda online</h3>
+              <h3 className="mt-6 font-medium">2. Agrega</h3>
             </CardHeader>
 
             <CardContent>
               <p className="mt-3 text-sm">
-              Reduce las horas que dedicas a gestionar tu negocio.
+                Tus clientes agregan al carrito los productos que desean
+                comprar.
               </p>
             </CardContent>
           </Card>
@@ -53,14 +53,12 @@ export default function Features() {
                 <Sparkles className="size-6" aria-hidden />
               </CardDecorator>
 
-              <h3 className="mt-6 font-medium">Sin comisiones por Ventas</h3>
+              <h3 className="mt-6 font-medium">3. Envía</h3>
             </CardHeader>
 
             <CardContent>
               <p className="mt-3 text-sm">
-               No cobramos comisión por ventas realizas, ofrece un mejor servicio con tu tienda independiente
-
-
+                Tus clientes te envían el pedido a tu número de WhatsApp.
               </p>
             </CardContent>
           </Card>
