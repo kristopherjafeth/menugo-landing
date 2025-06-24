@@ -1,4 +1,4 @@
-import Logo from "@/public/assets/images/hero-banner.png";
+import Logo from "@/public/assets/images/logo_white.svg";
 import Image from "next/image";
 import Link from "next/link";
 
